@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "viva-orgstructure-client-side-solution",
+    "id": "eeb4e68d-24bf-4428-b933-e221a998e07f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "viva_orgstructure description"
+      },
+      "longDescription": {
+        "default": "viva_orgstructure description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "viva-orgstructure Feature",
+        "description": "The feature that activates elements of the viva-orgstructure solution.",
+        "id": "5c5926cf-a95b-46e8-83a8-cda15eb35eae",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/viva-orgstructure.sppkg"
+  }
+}

@@ -1,0 +1,62 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+//Для адаптації модерн веб-частини під час тестування (full width)
+:global {
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    max-width: 100% !important;
+  }
+}
+
+.vivaOrgstructureWrapper {
+  .vivaOrgstructureEmployees {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .vivaOrgstructureUser {
+    text-align: -webkit-center;
+    .container {
+      border: solid 1px;
+      border-color: #5b5fc7;
+    }
+  }
+
+  .vivaOrgstructureManager {
+    text-align: -webkit-center;
+  }
+
+  .container {
+    -webkit-user-select: none; /* Safari */
+    user-select: none;
+    width: 340px;
+    height: 72px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow:
+      0px 0px 2px #0000001f,
+      0px 1px 2px #00000024;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    .userPhoto {
+      background-color: rgb(249, 206, 206);
+      display: block;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        width: 65px;
+        height: 65px;
+      }
+      margin: 5px;
+    }
+    .userInfo {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+  .container:hover {
+    background-color: #f3f2f1;
+  }
+}

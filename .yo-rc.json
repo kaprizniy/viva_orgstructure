@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "viva-orgstructure",
+    "libraryId": "eeb4e68d-24bf-4428-b933-e221a998e07f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "viva_orgstructure",
+    "solutionShortDescription": "viva_orgstructure description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
